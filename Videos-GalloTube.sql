@@ -1,51 +1,53 @@
 USE GalloTube;
 
 INSERT INTO Tag(Id, Name) VALUES
-(1, 'Ação'),
-(2, 'Animação'),
-(3, 'Aventura'),
-(4, 'Biografia'),
+(1, 'Mundo'),
+(2, 'Tutorial'),
+(3, 'Fraude'),
+(4, 'Drogas'),
 (5, 'Comédia'),
-(6, 'Comédia romântica'),
-(7, 'Comédia dramática'),
-(8, 'Comédia de ação'),
-(9, 'Cult'),
-(10,'Dança'),
-(11,'Documentário'),
-(12,'Drama'),
-(13,'Espionagem'),
-(14,'Fantasia'),
-(15,'Faroeste'),
-(16,'Ficção científica'),
-(17,'Ficção histórica'),
-(18,'Guerra'),
-(19,'História'),
-(20,'Mistério'),
-(21,'Musical'),
-(22,'Noir'),
-(23,'Policial'),
-(24,'Pornográfico'),
-(25,'Romance'),
-(26,'Suspense'),
-(27,'Terror'),
-(28,'Trash'),
-(29,'Épico'),
-(30,'Familia');
+(6, 'Decepção'),
+(7, 'LGBTQIA+'),
+(8, 'Dinheiro'),
+(9, 'Tecnologia'),
+(10,'Governo'),
+(11,'Hacker'),
+(12,'Segredo'),
+(13,'Pornográfico');
 
 INSERT INTO Video(Id, Name, Description, UploadDate, Duration, Thumbnail) VALUES
-( 1, 'The Shawshank Redemption', 'Dois homens presos se reúnem ao longo de vários anos, encontrando consolo e eventual redenção através de atos de decência comum.', '2006/07/05', 142, '\\img\\videos\\01.jpg'),
-( 2, 'O Poderoso Chefão', 'O patriarca idoso de uma dinastia do crime organizado transfere o controle de seu império clandestino para seu filho relutante.', '2006/07/05', 175, '\\img\\videos\\02.jpg'),
-( 3, 'Batman: O Cavaleiro das Trevas', 'Quando a ameaça conhecida como O Coringa surge de seu passado, causa estragos e caos nas pessoas de Gotham. O Cavaleiro das Trevas deve aceitar um dos maiores testes para combater a injustiça.', '2006/07/05', 152, '\\img\\videos\\03.jpg'),
-( 4, 'O Poderoso Chefão II', 'Em 1950, Michael Corleone, agora à frente da família, tenta expandir o negócio do crime a Las Vegas, Los Angeles e Cuba. Paralelamente, é revelada a história de Vito Corleone, e de como saiu da Sicília e chegou a Nova Iorque.', '2006/07/05', 202, '\\img\\videos\\04.jpg'),
-( 5, '12 Homens e uma Sentença', 'Um jurado que se aposenta tenta evitar um erro judicial forçando seus colegas a reconsiderarem as evidências.', '2006/07/05', 96, '\\img\\videos\\05.jpg'),
-( 6, 'A Lista de Schindler', 'Depois de testemunhar a perseguição dos judaicos na Polônia ocupada pelos alemães durante a Segunda Guerra Mundial, o industrial Oskar Schindler se começa a preocupar com sua força de trabalho judaica.', '2006/07/05', 195, '\\img\\videos\\06.jpg');
-
-
+( 1, 'Vamos h@cke@r o Banco Central!', 'Um vídeo que explica como fraudar o sistema e ganhar muita grana invadindo o Banco Central do Brasil.', '2023/01/01', 22, '\\img\\videos\\01.jpg'),
+( 2, 'Pontos de dr0g4s super secretos!', 'Descubra os pontos de drogas hiper secretos espalhados por aí.', '2023/02/02', 15, '\\img\\videos\\02.jpg'),
+( 3, 'Se pr0stitu@ e ganhe dinheiro fácil!', 'Venha descobrir como ganhar dinheiro se prostituindo.', '2023/03/03', 17, '\\img\\videos\\03.jpg'),
+( 4, 'Inteligência Artificial está f#dend0 a gente?!', 'Nesse vídeo mostramos como a InteligÊncia Artificial está mudando o mundo.', '2023/04/04', 25, '\\img\\videos\\04.jpg'),
+( 5, 'Virei gay, e agora?!', 'Um vídeo contando a história de como um hetéro top virou gay depois de dar uma provadinha.', '2023/05/05', 24, '\\img\\videos\\05.jpg'),
+( 6, 'Sonegue o imposto de renda!', 'Não acredite nesse sistema, aprenda a sonegar impostos.', '2023/06/06', 13, '\\img\\videos\\06.jpg'),
+( 7, 'Dei a bund@, e agora?!', 'Mais um vídeo de gay, nesse mostramos um tutorial detalhado de como dar o bumbum.', '2023/07/07', 7, '\\img\\videos\\07.jpg'),
+( 8, 'Venha virar um m4conheir0 ecológico', 'Venha salvar o mundo com piteiras de vidro, aprenda nesse vídeo como bolar em 5 min', '2023/08/08', 6, '\\img\\videos\\08.jpg'),
+( 9, 'Fique rico vendendo dr0g4s!', 'Chega de trabalhar, aprenda como se tornar o Pablo Escobar moderno', '2023/09/09', 16, '\\img\\videos\\09.jpg');
 
 INSERT INTO VideoTag VALUES
-( 1, 12),
-( 2, 23), ( 2, 12),
-( 3,  1), ( 3, 23), ( 3, 12);
+( 1, 3, 8, 11, 10), 
+( 2, 12),
+( 3,  1), 
+( 4, 23),
+( 5, 12),
+( 6, 12),
+( 7, 12), 
+( 8, 12),
+( 9,  1); 
 
-
+(1, 'Mundo'),
+(2, 'Tutorial'),
+(3, 'Fraude'),
+(4, 'Drogas'),
+(5, 'Comédia'),
+(6, 'Decepção'),
+(7, 'LGBTQIA+'),
+(8, 'Dinheiro'),
+(9, 'Tecnologia'),
+(10,'Governo'),
+(11,'Hacker'),
+(12,'Segredo'),
+(13,'Pornográfico')
 
