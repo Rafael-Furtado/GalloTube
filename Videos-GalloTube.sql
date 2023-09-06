@@ -27,27 +27,12 @@ INSERT INTO Video(Id, Name, Description, UploadDate, Duration, Thumbnail) VALUES
 ( 9, 'Fique rico vendendo dr0g4s!', 'Chega de trabalhar, aprenda como se tornar o Pablo Escobar moderno', '2023/09/09', 16, '\\img\\videos\\09.jpg');
 
 INSERT INTO VideoTag VALUES
-( 1, 3, 8, 11, 10), 
-( 2, 12),
-( 3,  1), 
-( 4, 23),
-( 5, 12),
-( 6, 12),
-( 7, 12), 
-( 8, 12),
-( 9,  1); 
-
-(1, 'Mundo'),
-(2, 'Tutorial'),
-(3, 'Fraude'),
-(4, 'Drogas'),
-(5, 'Comédia'),
-(6, 'Decepção'),
-(7, 'LGBTQIA+'),
-(8, 'Dinheiro'),
-(9, 'Tecnologia'),
-(10,'Governo'),
-(11,'Hacker'),
-(12,'Segredo'),
-(13,'Pornográfico')
-
+( 1, 3), ( 1, 8), ( 1, 10), ( 1,11), 
+( 2, 4), ( 2, 12),
+( 3, 2), ( 3, 8), ( 3, 13), 
+( 4, 1), ( 4, 9), 
+( 5, 5), ( 5, 6), ( 5, 7), ( 5, 12),
+( 6, 2), ( 6, 3), ( 6, 8), ( 6, 10),
+( 7, 2), ( 7, 5), ( 7, 7), ( 7, 12), 
+( 8, 2), ( 8, 4), ( 8, 9), 
+( 9, 2), ( 9, 4), ( 9, 8); 
